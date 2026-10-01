@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/*.db
+data/*.db-*
+data/ground_truth.json
+data/eval_report.json
+frontend/node_modules/
+frontend/dist/
+
+# Generated launch video (kept local)
+brag-output/
+
+# Local editor / agent config
+.claude/
