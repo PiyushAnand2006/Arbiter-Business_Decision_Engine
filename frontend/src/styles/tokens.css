@@ -1,0 +1,96 @@
+/* Design tokens. Light is the base; dark is its own selected set of steps, not an inversion.
+   The theme is resolved before first paint (index.html) and stamped on <html data-theme>. */
+:root {
+  color-scheme: light;
+  --bg: #f6f6f4;
+  --panel: #ffffff;
+  --panel-2: #f7f7f5;
+  --panel-3: #efefec;
+  --hover: rgba(11, 11, 11, 0.035);
+  --active: rgba(11, 11, 11, 0.06);
+  --line: rgba(11, 11, 11, 0.08);
+  --line-2: rgba(11, 11, 11, 0.14);
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --text-3: #898781;
+  --inverse: #ffffff;
+  --shadow-pop: 0 1px 2px rgba(0, 0, 0, 0.06), 0 12px 32px -8px rgba(0, 0, 0, 0.18);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --scrim: rgba(20, 20, 18, 0.28);
+
+  /* brand */
+  --brand: #d98c12;
+  --brand-soft: rgba(217, 140, 18, 0.12);
+  --focus: #2a78d6;
+
+  /* categorical - validated (dataviz validator, light surface) : direct / conflict / stale */
+  --s-direct: #2a78d6;
+  --s-conflict: #eb6834;
+  --s-stale: #4a3aa7;
+  --s-direct-wash: rgba(42, 120, 214, 0.1);
+  --s-conflict-wash: rgba(235, 104, 52, 0.1);
+  --s-stale-wash: rgba(74, 58, 167, 0.1);
+
+  /* status - fixed, always paired with an icon + label */
+  --good: #0ca30c;
+  --good-text: #006300;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+  --critical-text: #b42828;
+  --critical-wash: rgba(208, 59, 59, 0.08);
+  --good-wash: rgba(12, 163, 12, 0.08);
+  --warning-wash: rgba(250, 178, 25, 0.12);
+
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+
+  --font: "Inter Variable", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --r-sm: 6px;
+  --r: 8px;
+  --r-lg: 12px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --sidebar: 236px;
+  --topbar: 52px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b0b0c;
+  --panel: #111113;
+  --panel-2: #161618;
+  --panel-3: #1d1d20;
+  --hover: rgba(255, 255, 255, 0.04);
+  --active: rgba(255, 255, 255, 0.07);
+  --line: rgba(255, 255, 255, 0.07);
+  --line-2: rgba(255, 255, 255, 0.12);
+  --text: #ededee;
+  --text-2: #a3a3aa;
+  --text-3: #6f6f78;
+  --inverse: #0b0b0c;
+  --shadow-pop: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 16px 40px -8px rgba(0, 0, 0, 0.7);
+  --shadow-card: none;
+  --scrim: rgba(0, 0, 0, 0.55);
+
+  --brand: #f0a531;
+  --brand-soft: rgba(240, 165, 49, 0.12);
+  --focus: #3987e5;
+
+  /* categorical - validated against the dark surface #111113 */
+  --s-direct: #3987e5;
+  --s-conflict: #d95926;
+  --s-stale: #9085e9;
+  --s-direct-wash: rgba(57, 135, 229, 0.12);
+  --s-conflict-wash: rgba(217, 89, 38, 0.12);
+  --s-stale-wash: rgba(144, 133, 233, 0.12);
+
+  --good-text: #3fbf3f;
+  --critical-text: #ef7474;
+  --critical-wash: rgba(208, 59, 59, 0.12);
+  --good-wash: rgba(12, 163, 12, 0.12);
+  --warning-wash: rgba(250, 178, 25, 0.1);
+
+  --grid: #232326;
+  --axis: #38383c;
+}

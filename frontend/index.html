@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Arbiter - an AI decision engine that only debates when business data actually disagrees." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23f0a531'/%3E%3Cpath d='M16 7v18M10 25h12M8 11h16M8 11l-3 7a3.5 3.5 0 0 0 6 0zM24 11l-3 7a3.5 3.5 0 0 0 6 0z' fill='none' stroke='%231a1204' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <title>Arbiter</title>
+    <script>
+      // Resolve the theme before first paint (no flash): saved choice, else the OS setting.
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("arbiter.theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
