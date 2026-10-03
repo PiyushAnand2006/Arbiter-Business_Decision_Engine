@@ -1,7 +1,3 @@
-
-
-Uploading WhatsApp Video 2026-09-30 at 7.49.04 PM.mp4…
-
 <div align="center">
 
 # Arbiter
@@ -177,6 +173,18 @@ sequenceDiagram
 
 A walk through the dashboard following one conflict, deal **D1042**, from detection to approval. All data is
 synthetic.
+
+### Demo video
+
+<div align="center">
+
+<video src="arbiter-demo.mp4" controls muted width="100%"></video>
+
+*End-to-end demo: a live edit creates a conflict, the gate routes it to an evidence-bound debate, and a human approves the sync.*
+
+</div>
+
+### Screenshots
 
 <table>
   <tr>
