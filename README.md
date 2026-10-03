@@ -1,3 +1,6 @@
+
+
+
 <div align="center">
 
 # Arbiter
@@ -176,16 +179,9 @@ synthetic.
 
 ### Demo video
 
-<!-- INLINE VIDEO: edit this README on github.com, drag docs/arbiter-demo.mp4 (8 MB, under GitHub's 10 MB
-     video cap) into the editor, wait for it to upload, then replace the poster line below with the
-     https://github.com/user-attachments/assets/... URL it inserts. That is the only URL type GitHub
-     renders as an inline player in a README. -->
-
 <div align="center">
 
-[![Arbiter demo video — click to play](demo-video-poster.jpg)](arbiter-demo.mp4)
-
-**▶ Click the image to watch the demo** (opens GitHub's video player)
+https://github.com/user-attachments/assets/f3b7d9fd-bee3-4506-abc2-fbe88c73f17c
 
 </div>
 
