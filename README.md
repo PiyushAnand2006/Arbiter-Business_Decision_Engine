@@ -178,7 +178,7 @@ synthetic.
 
 <div align="center">
 
-<video src="arbiter-demo.mp4" controls muted width="100%"></video>
+<video src="docs/arbiter-demo.mp4" controls muted width="100%"></video>
 
 *End-to-end demo: a live edit creates a conflict, the gate routes it to an evidence-bound debate, and a human approves the sync.*
 
