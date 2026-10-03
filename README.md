@@ -1,7 +1,3 @@
-
-
-Uploading WhatsApp Video 2026-09-30 at 7.49.04 PM.mp4…
-
 <div align="center">
 
 # Arbiter
@@ -177,6 +173,23 @@ sequenceDiagram
 
 A walk through the dashboard following one conflict, deal **D1042**, from detection to approval. All data is
 synthetic.
+
+### Demo video
+
+<!-- INLINE VIDEO: edit this README on github.com, drag docs/arbiter-demo.mp4 (8 MB, under GitHub's 10 MB
+     video cap) into the editor, wait for it to upload, then replace the poster line below with the
+     https://github.com/user-attachments/assets/... URL it inserts. That is the only URL type GitHub
+     renders as an inline player in a README. -->
+
+<div align="center">
+
+[![Arbiter demo video — click to play](demo-video-poster.jpg)](arbiter-demo.mp4)
+
+**▶ Click the image to watch the demo** (opens GitHub's video player)
+
+</div>
+
+### Screenshots
 
 <table>
   <tr>
